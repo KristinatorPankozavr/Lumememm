@@ -70,5 +70,11 @@ namespace Lumi
                 SnowmanOpacity(1);
             });
         }
+
+
+        private void Surprise_Button_Clicked(object sender, EventArgs e)
+        {
+           
+        }
     }
 }

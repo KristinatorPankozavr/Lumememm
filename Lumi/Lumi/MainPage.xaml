@@ -17,19 +17,29 @@
             <Button x:Name="Random_Button"
                     Text="Случайный цвет"
                     HorizontalOptions="FillAndExpand"
-                    Clicked="Random_Button_Clicked" />
+                    Clicked="Random_Button_Clicked"
+                    BackgroundColor="Wheat"/>
             <Button x:Name="Hide_Button"
                     Text="Спрятать"
                     HorizontalOptions="FillAndExpand"
-                    Clicked="Hide_Button_Clicked"/>
+                    Clicked="Hide_Button_Clicked"
+                    BackgroundColor="Wheat"/>
             <Button x:Name="Melt_Button"
                     Text="Растопить"
                     HorizontalOptions="FillAndExpand"
-                    Clicked="Melt_Button_Clicked"/>
+                    Clicked="Melt_Button_Clicked"
+                    BackgroundColor="Wheat"/>
+            
+            
         </StackLayout>
-        <Button x:Name="TurnOver"
-                Text="Перевернуть"
-                Clicked="TurnOver_Clicked"/>
+        <StackLayout>
+            <Button x:Name="Surprise_Button"
+                    Text="Ничего"
+                    Clicked="Surprise_Button_Clicked"
+                    HorizontalOptions="FillAndExpand"
+                    BackgroundColor="LightSteelBlue"/>
+
+        </StackLayout>
     </StackLayout> 
 
 </ContentPage>
